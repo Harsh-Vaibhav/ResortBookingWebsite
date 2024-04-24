@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center align login container */
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  /* Style the login form */
+  .login__form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  /* Title styling */
+  .login__title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input box styling */
+  .login__box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .login__input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Icon positioning */
+  .ri {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #888;
+  }
+  
+  /* Checkbox styling */
+  .login__check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styling */
+  .login__button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login__button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Register link styling */
+  .login__register {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login__register a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login__register a:hover {
+    text-decoration: underline;
+  }
+  
